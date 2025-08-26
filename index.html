@@ -9,7 +9,7 @@ body {
 	background: black;
 	color: #0f0;
 	font-family: monospace;
-	padding: 30vh 30vw 30vh;
+	padding: 30vh 15vw 30vh;
 	text-align: center;
 }
 a {
@@ -29,7 +29,14 @@ a.button:hover {
 	color: black;
 }
 
-
+@media (max-width:700px) {
+	body {
+		padding: 30vh 10px 30vh;
+	}
+	h1 {
+		font-size: 1em
+	}
+}
 /* https://css-tricks.com/snippets/css/typewriter-effect/ */
 
 body h1 {
